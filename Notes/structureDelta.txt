@@ -1,0 +1,31 @@
+Right [
+FileDelta {
+    fileDeltaStatus = Created
+  , fileDeltaSourceFile = "blossom/account/initdb.sql"
+  , fileDeltaDestFile = "blossom/account/initdb.sql"
+  , fileDeltaContent = Hunks [
+      Hunk {
+          hunkSourceRange = Range {
+              rangeStartingLineNumber = 0
+              , rangeNumberOfLines = 0
+          }
+        , hunkDestRange = Range {
+              rangeStartingLineNumber = 1
+            , rangeNumberOfLines = 71
+          }
+        , hunkLines = [
+              Line {
+                  lineAnnotation = Added
+                , lineContent = "BEGIN;"
+              }
+            , Line {
+                  lineAnnotation = Added
+                , lineContent = "CREATE SCHEMA IF NOT EXISTS account;"
+              }
+            ...
+          ]
+      }
+    ]
+  }
+
+]
